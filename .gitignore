@@ -1,3 +1,14 @@
-.idea
-__pycache__/
+# PyCharm stuff
+.idea/
+/__pycache__
+
+/venv
 *.pyc
+.env
+
+/logs
+
+
+# Flask stuff:
+instance/
+.webassets-cache
