@@ -7,7 +7,7 @@ if __name__ == '__main__':
     test the text_similarity API with the three sample texts
     """
 
-    url = "http://0.0.0.0:3333/compare_texts"
+    url = "http://localhost:3000/compare_texts"
 
     with open('sample_1.txt', 'r') as f:
         sample_1 = f.read()
